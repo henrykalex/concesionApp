@@ -1,0 +1,62 @@
+Proyectos finales
+Elaboración de proyecto asignado en clase.
+
+Establecerá como demostrativo una App 100% funcional en donde se evidenciarán los puntos más relevantes de la materia Proyecto de desarrollo para dispositivos móviles, incluyendo los servicios web.
+
+Los estudiantes trabajarán colaborativamente para la realización de las pruebas de usabilidad, así como el desarrollo de estrategias de marketing y elaboración de un producto final para la venta al público. Se presentarán los resultados de este proyecto siguiendo estrictamente el siguiente formato
+
+Reporte escrito:
+
+Presentación: portada, índice, bibliografía, estudio de mercado para la App, fases de análisis y diseño del sistema, screenshots, código desarrollado, documentación de éste. Todo el contenido en un CDROM.
+Construcción general del proyecto: introducción, definición del problema, identificación de empresas donde se pueda implementar este proyecto, trabajo relacionado, explicación detallada de las funciones desarrolladas, librerías y paquetes utilizados, documentación del sistema en código, además de conclusiones claras y relevantes sobre lo aprendido durante la elaboración de este proyecto y trabajo futuro. No olvide poner en su contenedor web todos los ejercicios desarrollados en clase con su respectivo resumen y modificación.
+Funcionalidad: el prototipo deberá de incluir las siguientes dos opciones:
+Generación de un micro sitio (página electrónica) en el servidor central de la materia con todos los puntos descritos en este proyecto incluyendo la descripción detallada del código desarrollado, incluyendo un tutorial sobre el uso e instalación del sistema, manuales de instalación y de usuario demostrando la efectividad de los conceptos aplicados y del sistema desarrollado, además de los proyectos completos y clientes móviles Android utilizando el consumo de recursos en JSON, además de la implementación del uso de las librerías vistas en las últimas clases.
+ 
+
+Aplicación de contenidos: explicar la relación de este sistema con los temas vistos en clase haciendo referencia a la investigación realizada para la elaboración de este sistema.
+Conclusiones: deberán ser precisas, mostrando el análisis de los conceptos aplicados en el sistema de forma, además de mostrar las metas y puntos alcanzados durante la elaboración de este proyecto, problemas encontrados y cómo es que los solucionaron (incluyendo código programado).
+Elaboración de un reporte y presentación gerencial de 15 minutos.
+ 
+Método de Evaluación
+
+Proyecto
+
+Funcionalidad, entrega de producto con Material Design y video splash random tomado de la red (videos disponibles en ubiquitous) 40%
+Validaciones 10%
+Sitio Web, servicios implementados en el servidor central de la materia ubiquitous, proyecto Android Studio en archivo zip o rar y cliente móvil Android con consumo de servicios JSON y manejo de perfiles 50%
+Reporte escrito
+
+Reporte escrito: 60%
+Respuesta a 3 preguntas/peticiones de desarrollo al tiempo de entrega: 40%
+NOTA: El desempeño del alumno en el proyecto final será evaluado de forma grupal e individual y dependerá del criterio de evaluación del profesor.
+
+---------------------------------------------------------------------------------------------------------------
+
+PROYECTO 1
+
+Un concesionario de automóviles nuevos y usados desea informatizar su gestión de ventas de vehículos, éste cuenta con varias agencias de diferentes marcas, además de lotes de vehículos usados situados en diferentes partes de la república mexicana.
+
+En particular, se quiere tener almacenada la información referente a las marcas, modelos, versiones, precios y demás características que puada tener un vehículo nuevo.
+
+También se requiere almacenar toda la información de los clientes que compran en el concesionario, los vehículos vendidos por agencia, los vehículos vendidos por lote de vehículos usados, así como los vendedores que realizan las distintas ventas y sus comisiones.
+
+Para ello se tendrá en cuenta que:
+
+El concesionario dispone de un catálogo de vehículos definidos por su marca, modelo, cilindrada y precio.
+Para el caso de los lotes de vehículos usados, el concesionario dispone de un catálogo de vehículos definidos por año, color, marca, modelo, cilindrada y precio
+Cada uno de los modelos dispondrá de unas opciones adicionales (aire acondicionado, pintura metalizada, etc.) lo que se conoce como versión. Las opciones vienen definidas por un nombre y una descripción. Hay que tener en cuenta que una opción puede ser común para varios modelos variando sólo el precio en cada caso.
+Para el caso de los vehículos usados, también se dispondrá de las opciones adicionales, además del expediente del vehículo, como, por ejemplo, número de propietarios, tenencias pagadas, placas, verificaciones, y demás detalles que tiene un vehículo usado. De la misma forma que un vehículo nuevo, hay que tener en cuenta que una opción puede ser común para varios modelos variando sólo el precio en cada caso.
+Tomar en consideración que si un vehículo en determinada versión, color o características no se encuentra en una agencia - para autos nuevos y usados – la app debe de indicar en que agencia o lote se encuentra e indicarle la forma de llagar al cliente, además de asignarle un agente de ventas que le pueda dar seguimiento y conteste todas las preguntas que le surjan.
+En cuanto a los clientes, la información de interés es el nombre, apellido paterno, apellido paterno, IFE, dirección, correos electrónicos, teléfono celular y teléfono de casa, lo mismo que para los vendedores.
+Los clientes pueden ceder su vehículo usado en el momento de comprar un vehículo nuevo. El vehículo usado vendrá definido por su marca, modelo, matrícula y precio de tasación de acuerdo al libro azul - www.libroazul.com -. Es importante conocer la fecha en la que el cliente realiza esta cesión porque con ella se definirá la entrega del vehículo nuevo.
+Se desea saber qué vendedor ha vendido qué modelo a qué cliente además de la comisión recibida por la venta de cada vehículo.
+Los clientes podrán descargar la aplicación mediante el sitio Web de concesionario.
+La app podrá visualizar todos los vehículos por categoría, podrá obtener los detalles de un modelo o versión en particular, además de visualizar las imágenes, animaciones y videos de la campaña de publicidad de forma gratuita, además de obtener los datos del expediente y ubicación en el caso de los vehículos seminuevos.
+Se debe de ofrecer además la posibilidad de descargar los videos disponibles de cada vehículo, así como salva‐pantallas e imágenes. Cada semana se debe de ofrecer un spot diferente como video splash, así como sincronizar nuevos contenidos, promoviendo la vuelta de los clientes a la App.
+La app debe de tener la posibilidad de acceder en modo cliente, vendedor, gerente, o dueño del concesionario.
+Definir por cada perfil las características y reportes que debe tener la app.
+El gerente debe poder definir la comisión de cada uno de los vendedores, así como crear usuarios y perfiles que le apoyen a la venta de vehículos en agencias o lotes de autos usados.
+Es importante visualizar la fecha de la venta de un vehículo nuevo, y para el caso de los usados la fecha de venta y la matricula.
+Es importante así mismo saber las opciones que el cliente ha elegido para el modelo que compra.
+Para el concesionario, es importante tener los reportes y dashboards necesarios para saber que vehículos, que agencias, que lotes, que vendedores, que modelos, que versiones, etc se han vendido.
+----------------------------------------------------------------------------------------------------------------
