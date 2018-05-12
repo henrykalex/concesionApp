@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itesm.a01019108.concesionapp.CarsFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/nuevos"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tab_new_label" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/usados"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tab_used_label" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/agregarTab"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tab_add_label" />
+
+        </android.support.design.widget.TabLayout>
+
+        <FrameLayout
+            android:id="@+id/autosContainer"
+            android:layout_width="383dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tabNavigation">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginHorizontal="32dp"
+                android:layout_marginVertical="@dimen/activity_vertical_margin"
+                android:clickable="true"
+                android:src="@android:drawable/ic_menu_search" />
+
+        </FrameLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

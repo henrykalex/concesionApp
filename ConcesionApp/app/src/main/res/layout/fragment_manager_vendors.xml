@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itesm.a01019108.concesionapp.ManagerVendorsFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/vendors"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tab_vendors_label" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tab_add_label" />
+
+        </android.support.design.widget.TabLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
